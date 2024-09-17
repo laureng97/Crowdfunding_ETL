@@ -1,7 +1,7 @@
 # Crowdfunding_ETL
 
 # Files
-The coding files can be found labeled " ".
+The coding files can be found labeled "ETL_Mini_Project_LGraves_APohle_BThomas_CMcMahill_JMaranto.ipynb".
 The csv files are in a folder labeled "Resources". There are four csv files that were output as a result of our code: "campaign.csv", "category.csv", "contacts.csv", and "subcategory.csv"
 The data set excel starter files are labeled "contacts.xlsx" and "crowdfunding.xlsx". 
 The database schema is saved as a Postgres file labeled "crowdfunding_db_schema.sql".
@@ -80,4 +80,4 @@ https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html for mor
 
 # Contributions
 This project was a collaborative effort of the following individuals: Andrew Pohle, Bryan Thomas, Caitlin McMahill, Jessica Maranto, and Lauren Graves. 
-The code files labeled "" were written as a collaboration amongst this group. 
+The code files labeled "ETL_Mini_Project_LGraves_APohle_BThomas_CMcMahill_JMaranto.ipynb" were written as a collaboration amongst this group. 
