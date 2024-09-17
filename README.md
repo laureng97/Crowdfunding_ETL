@@ -5,7 +5,7 @@ The coding files can be found labeled " ".
 The csv files are in a folder labeled "Resources". There are four csv files that were output as a result of our code: "campaign.csv", "category.csv", "contacts.csv", and "subcategory.csv"
 The data set excel starter files are labeled "contacts.xlsx" and "crowdfunding.xlsx". 
 The database schema is saved as a Postgres file labeled "crowdfunding_db_schema.sql".
-The ERD is labeled as " ". 
+The ERD is labeled as "crowdfunding_database_ERD". 
 
 # Background
 Practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema. Finally, we uploaded the CSV file data into a Postgres database.
@@ -63,6 +63,8 @@ Contacts Dataframe- saved to the "Resources" folder and labeled "contacts.csv".
 We inspected the four CSV files and sketched an ERD of the tables by using QuickDBD. 
 
 Here is the ERD:
+![image](https://github.com/user-attachments/assets/e4435ad3-c7af-4851-b1d4-d688146b7c4e)
+
 
 We then used the database schema to create the tables in the correct order to handle our designated foreign keys. 
 We verified the table creation by running a SELECT statement for each table. 
