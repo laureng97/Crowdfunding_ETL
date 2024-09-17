@@ -1,11 +1,11 @@
 # Crowdfunding_ETL
 
 # Files
-The coding files can be found labeled "ETL_Mini_Project_LGraves_APohle_BThomas_CMcMahill_JMaranto.ipynb".
-The csv files are in a folder labeled "Resources". There are four csv files that were output as a result of our code: "campaign.csv", "category.csv", "contacts.csv", and "subcategory.csv"
-The data set excel starter files are labeled "contacts.xlsx" and "crowdfunding.xlsx". 
-The database schema is saved as a Postgres file labeled "crowdfunding_db_schema.sql".
-The ERD is labeled as "crowdfunding_database_ERD". 
+-The coding files can be found labeled "ETL_Mini_Project_LGraves_APohle_BThomas_CMcMahill_JMaranto.ipynb".
+-The csv files are in a folder labeled "Resources". There are four csv files that were output as a result of our code: "campaign.csv", "category.csv", "contacts.csv", and "subcategory.csv"
+-The data set excel starter files are labeled "contacts.xlsx" and "crowdfunding.xlsx". 
+-The database schema is saved as a Postgres file labeled "crowdfunding_db_schema.sql".
+-The ERD is labeled as "crowdfunding_database_ERD". 
 
 # Background
 Practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema. Finally, we uploaded the CSV file data into a Postgres database.
@@ -14,10 +14,10 @@ Practice building an ETL pipeline using Python, Pandas, and either Python dictio
 In the "Resources" folder there are two excel files labeled "contacts" and "crowdfunding". The data manipulation in our jupyter notebook was performed based on the data pulled from these files. In addition, we were provided with a starter code that listed the instructions for each part of the mini ETL project.
 
 # Project Instructions
-Create the Category and Subcategory DataFrames
-Create the Campaign DataFrame
-Create the Contacts DataFrame
-Create the Crowdfunding Database
+-Create the Category and Subcategory DataFrames
+-Create the Campaign DataFrame
+-Create the Contacts DataFrame
+-Create the Crowdfunding Database
 
 # Category and SubCategory DataFrames
 
@@ -29,11 +29,15 @@ Finally, we created both category and subcategory dataframes with category_id ar
 Here are the results: 
 ![image](https://github.com/user-attachments/assets/db6f493e-6086-4afc-8508-a67bbcda816d)
 
+
 Category DataFrame- saved to the "Resources" folder as "category.csv".
+
 
 ![image](https://github.com/user-attachments/assets/aab94212-cce9-4c5e-b574-8255d90c931e)
 
+
 Subcategory DataFrame- saved to the "Resources" folder as "subcategory.csv".
+
 
 # Create the Campaign DataFrame
 We started by creating a copy of the crowdfunding_info_df to create a campaign dataframe.
@@ -45,7 +49,9 @@ Finally, we dropped any unwanted columns (staff_pick, spotlight, category & sub-
 Here are the results:
 ![image](https://github.com/user-attachments/assets/fbab3498-7b22-4388-9a97-34d3ae339f32)
 
+
 Campaign DataFrame- saved to the "Resources" folder as "campaign.csv".
+
 
 # Create the Contacts DataFrame
 Option 1: Use Pandas to create the contacts dataframe. We opted to do option 1 for this portion. 
@@ -57,7 +63,9 @@ Finally the data was reorganized by column to list "contact_id", "first_name", "
 Here are the results: 
 ![image](https://github.com/user-attachments/assets/f7672631-9a17-49e0-a3a9-bd7d757abdc0)
 
+
 Contacts Dataframe- saved to the "Resources" folder and labeled "contacts.csv".
+
 
 # Create the Crowdfunding Database
 We inspected the four CSV files and sketched an ERD of the tables by using QuickDBD. 
