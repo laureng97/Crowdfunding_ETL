@@ -54,7 +54,7 @@ Campaign DataFrame- saved to the "Resources" folder as "campaign.csv".
 
 
 # Create the Contacts DataFrame
-Option 1: Use Pandas to create the contacts dataframe. We opted to do option 1 for this portion. 
+We opted to do option 1 for this portion; Use Pandas to create the contacts dataframe.  
 We started by iterating through the contact_info dataframe and converted each row to a dictionary. The data was in JSON format so we alterted this by using JSON.loads to convert it to python formatting. 
 A new dataframe was created to add each list of values and each row to the columns "contact_id", "name", and "email".
 The "name" column values were then split into two columns, "first_name" and "last_name". The original "name" column was then dropped. 
@@ -82,9 +82,9 @@ Finally, we verified that each table has the correct data by running a SELECT st
 The database schema is saved as a Postgres file labeled "crowdfunding_db_schema.sql".
 
 # Notable Sources
-https://www.quickdatabasediagrams.com/ to create the ERD.
-https://numpy.org/doc/stable/reference/generated/numpy.arange.html documentation to view NumPy array examples.
-https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html for more information on how to add the "category_id" and "subcategory_id" unique identification numbers to the campaign dataframe. 
+- https://www.quickdatabasediagrams.com/ to create the ERD.
+- https://numpy.org/doc/stable/reference/generated/numpy.arange.html documentation to view NumPy array examples.
+- https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html for more information on how to add the "category_id" and "subcategory_id" unique identification numbers to the campaign dataframe. 
 
 # Contributions
 This project was a collaborative effort of the following individuals: Andrew Pohle, Bryan Thomas, Caitlin McMahill, Jessica Maranto, and Lauren Graves. 
